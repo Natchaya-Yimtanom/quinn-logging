@@ -1,0 +1,30 @@
+{
+    "name": "quinn/logging",
+    "description": "Create & save log file and store data in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natchaya Yimtanom",
+            "email": "yi.natchaya_st@tni.ac.th"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Quinn\\Logging\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quinn\\Logging\\LoggingServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+    
+}
